@@ -28,12 +28,13 @@ Before we run the project, make sure that you are having MongoDB in your local s
 
 ### Data Collections
 
-Data Collection.png
+![My Image](Data Collection.png)
 
 ### Project Architecture
 
-project archietecture.png
+![My Image](project archietecture.png)
+
 
 ### Deployment Archietecture
 
-deployment archietecture.png
+![My Image](deployment archietecture.png)
