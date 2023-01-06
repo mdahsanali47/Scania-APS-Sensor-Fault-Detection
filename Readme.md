@@ -29,12 +29,12 @@ The problem is to reduce the cost due to unnecessary repairs. So it is required 
 
 ### Data Collections
 
-<img src="./Flowcharts/Images/Data%20Collection.png" alt="lasagna">
+![Alt text](Flowcharts/Images/Data%20Collection.png)
 
 ### Project Architecture
 
-<img src="./Flowcharts/Images/project%20archietecture.png" alt="lasagna">
+![Alt text](Flowcharts/Images/project%20archietecture.png)
 
 ### Deployment Archietecture
 
-<img src="./Flowcharts/Images/deployment%20archietecture.png" alt="lasagna">
+![Alt text](Flowcharts/Images/deployment%20archietecture.png)
