@@ -1,4 +1,4 @@
-# Pipeline name and root directory are constants 
+# Pipeline name and root directory are constants
 # that are used in multiple places.
 
 import os
@@ -7,7 +7,7 @@ import os
 TARRGET_COLUMN = "class"
 PIPELINE_NAME: str = "sensor"
 
-ARTIFACT_DIR :str = "artifacts"
+ARTIFACT_DIR: str = "artifacts"
 FILE_NAME: str = "sensor.csv"
 
 TRAIN_FILE_NAME: str = "train.csv"
@@ -26,4 +26,9 @@ DATA_INGESTION_FEATURE_STORE_DIR: str = "feature_store"
 DATA_INGESTION_INGESTED_DIR: str = "ingested_data"
 DATA_INGESTION_TRAIN_TEST_SPLIT_RATIO: float = 0.2
 
-
+# constants related to data validation:
+DATA_VALIDATION_DIR_NAME: str = "data_validation"
+DATA_VALIDATION_VALID_DIR: str = "validated"
+DATA_VALIDATION_INVALID_DIR: str = "invalid"
+DATA_VALIDATION_DRIFT_REPORT_DIR:str = "drift_report"
+DATA_VALIDATION_DRIFT_REPORT_FILE_NAME: str = "drift_report.yaml" 
