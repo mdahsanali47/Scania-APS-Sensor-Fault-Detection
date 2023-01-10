@@ -1,0 +1,492 @@
+aa_000:
+  data_drift_found: false
+  pvalue: 0.4685461146184219
+ac_000:
+  data_drift_found: false
+  pvalue: 0.6255484301944189
+ad_000:
+  data_drift_found: false
+  pvalue: 0.2940757323500256
+ae_000:
+  data_drift_found: false
+  pvalue: 0.7864358432683802
+af_000:
+  data_drift_found: false
+  pvalue: 0.7608855623402893
+ag_000:
+  data_drift_found: false
+  pvalue: 1.0
+ag_001:
+  data_drift_found: false
+  pvalue: 0.9999999999999999
+ag_002:
+  data_drift_found: false
+  pvalue: 0.9497723179793517
+ag_003:
+  data_drift_found: false
+  pvalue: 0.9897398903698444
+ag_004:
+  data_drift_found: false
+  pvalue: 0.37156910710051494
+ag_005:
+  data_drift_found: false
+  pvalue: 0.563077557389237
+ag_006:
+  data_drift_found: false
+  pvalue: 0.6464009328034852
+ag_007:
+  data_drift_found: false
+  pvalue: 0.6320661022482117
+ag_008:
+  data_drift_found: false
+  pvalue: 0.8243182170960786
+ag_009:
+  data_drift_found: false
+  pvalue: 0.37807748025306875
+ah_000:
+  data_drift_found: false
+  pvalue: 0.6243713734927313
+ai_000:
+  data_drift_found: false
+  pvalue: 0.9999995698320233
+aj_000:
+  data_drift_found: false
+  pvalue: 0.6301965618585377
+ak_000:
+  data_drift_found: false
+  pvalue: 0.6998278195158005
+al_000:
+  data_drift_found: false
+  pvalue: 0.8600788086878868
+am_0:
+  data_drift_found: false
+  pvalue: 0.7615523361184314
+an_000:
+  data_drift_found: false
+  pvalue: 0.674454946698327
+ao_000:
+  data_drift_found: false
+  pvalue: 0.6514737717308181
+ap_000:
+  data_drift_found: false
+  pvalue: 0.695434100842094
+aq_000:
+  data_drift_found: false
+  pvalue: 0.7908953039333797
+ar_000:
+  data_drift_found: false
+  pvalue: 0.9008409369388065
+as_000:
+  data_drift_found: false
+  pvalue: 1.0
+at_000:
+  data_drift_found: false
+  pvalue: 0.999939147337085
+au_000:
+  data_drift_found: false
+  pvalue: 1.0
+av_000:
+  data_drift_found: false
+  pvalue: 0.33557582237951755
+ax_000:
+  data_drift_found: false
+  pvalue: 0.35890762053503467
+ay_000:
+  data_drift_found: false
+  pvalue: 1.0
+ay_001:
+  data_drift_found: false
+  pvalue: 1.0
+ay_002:
+  data_drift_found: false
+  pvalue: 1.0
+ay_003:
+  data_drift_found: false
+  pvalue: 1.0
+ay_004:
+  data_drift_found: false
+  pvalue: 1.0
+ay_005:
+  data_drift_found: true
+  pvalue: 0.013728405614629333
+ay_006:
+  data_drift_found: false
+  pvalue: 0.7350604979377746
+ay_007:
+  data_drift_found: false
+  pvalue: 0.236282494660918
+ay_008:
+  data_drift_found: false
+  pvalue: 0.09152123065158091
+ay_009:
+  data_drift_found: false
+  pvalue: 0.9999999999894685
+az_000:
+  data_drift_found: false
+  pvalue: 0.8796067704469679
+az_001:
+  data_drift_found: false
+  pvalue: 0.8254228100256196
+az_002:
+  data_drift_found: false
+  pvalue: 0.8414129761608249
+az_003:
+  data_drift_found: false
+  pvalue: 0.7091445006676613
+az_004:
+  data_drift_found: false
+  pvalue: 0.10061046758308667
+az_005:
+  data_drift_found: false
+  pvalue: 0.6646731449941926
+az_006:
+  data_drift_found: false
+  pvalue: 0.8307258453404156
+az_007:
+  data_drift_found: false
+  pvalue: 0.999996039771716
+az_008:
+  data_drift_found: false
+  pvalue: 0.9999999999759529
+az_009:
+  data_drift_found: false
+  pvalue: 0.9999999999999999
+ba_000:
+  data_drift_found: false
+  pvalue: 0.41792772121439736
+ba_001:
+  data_drift_found: false
+  pvalue: 0.365464202623045
+ba_002:
+  data_drift_found: false
+  pvalue: 0.5488285818312097
+ba_003:
+  data_drift_found: false
+  pvalue: 0.6470758177043388
+ba_004:
+  data_drift_found: false
+  pvalue: 0.7634263779201093
+ba_005:
+  data_drift_found: false
+  pvalue: 0.35866957241489406
+ba_006:
+  data_drift_found: false
+  pvalue: 0.5694839405082435
+ba_007:
+  data_drift_found: false
+  pvalue: 0.7630664239312799
+ba_008:
+  data_drift_found: false
+  pvalue: 0.6147640295844763
+ba_009:
+  data_drift_found: false
+  pvalue: 0.9999821082121003
+bb_000:
+  data_drift_found: false
+  pvalue: 0.7497997645486992
+bc_000:
+  data_drift_found: false
+  pvalue: 0.24561257574353856
+bd_000:
+  data_drift_found: false
+  pvalue: 0.09981238376206514
+be_000:
+  data_drift_found: false
+  pvalue: 0.44071150174846574
+bf_000:
+  data_drift_found: false
+  pvalue: 0.7250655745942434
+bg_000:
+  data_drift_found: false
+  pvalue: 0.6649228775045876
+bh_000:
+  data_drift_found: false
+  pvalue: 0.9333229645668004
+bi_000:
+  data_drift_found: false
+  pvalue: 0.8739872841268557
+bj_000:
+  data_drift_found: false
+  pvalue: 0.8791903443893259
+bk_000:
+  data_drift_found: false
+  pvalue: 0.39443647633127354
+bl_000:
+  data_drift_found: false
+  pvalue: 0.3203935688789399
+bm_000:
+  data_drift_found: false
+  pvalue: 0.9573767189935396
+bs_000:
+  data_drift_found: false
+  pvalue: 0.6285030205418616
+bt_000:
+  data_drift_found: false
+  pvalue: 0.5445496822621991
+bu_000:
+  data_drift_found: false
+  pvalue: 0.7279201775474147
+bv_000:
+  data_drift_found: false
+  pvalue: 0.7279201775474147
+bx_000:
+  data_drift_found: false
+  pvalue: 0.5754945034983168
+by_000:
+  data_drift_found: false
+  pvalue: 0.41719072633628496
+bz_000:
+  data_drift_found: false
+  pvalue: 0.23856398078892704
+ca_000:
+  data_drift_found: false
+  pvalue: 0.329625906384885
+cb_000:
+  data_drift_found: false
+  pvalue: 0.27491399152716356
+cc_000:
+  data_drift_found: false
+  pvalue: 0.5061447998234273
+cd_000:
+  data_drift_found: false
+  pvalue: 1.0
+ce_000:
+  data_drift_found: false
+  pvalue: 0.5015838552139968
+cf_000:
+  data_drift_found: false
+  pvalue: 0.3749247601498874
+cg_000:
+  data_drift_found: false
+  pvalue: 0.39066626623627565
+ch_000:
+  data_drift_found: false
+  pvalue: 0.6489884913028585
+ci_000:
+  data_drift_found: false
+  pvalue: 0.47276327825719544
+cj_000:
+  data_drift_found: false
+  pvalue: 0.9133933282751023
+ck_000:
+  data_drift_found: false
+  pvalue: 0.6952345504124338
+cl_000:
+  data_drift_found: false
+  pvalue: 0.3763709278826737
+class:
+  data_drift_found: false
+  pvalue: 1.0
+cm_000:
+  data_drift_found: false
+  pvalue: 0.16945573665190705
+cn_000:
+  data_drift_found: false
+  pvalue: 0.9999999999979188
+cn_001:
+  data_drift_found: false
+  pvalue: 0.8611980047925291
+cn_002:
+  data_drift_found: false
+  pvalue: 0.39882599798242735
+cn_003:
+  data_drift_found: false
+  pvalue: 0.5532219936110593
+cn_004:
+  data_drift_found: false
+  pvalue: 0.7403488591990302
+cn_005:
+  data_drift_found: false
+  pvalue: 0.8319103788676498
+cn_006:
+  data_drift_found: false
+  pvalue: 0.5415545751791575
+cn_007:
+  data_drift_found: false
+  pvalue: 0.8822153501506574
+cn_008:
+  data_drift_found: false
+  pvalue: 0.9101446237744096
+cn_009:
+  data_drift_found: false
+  pvalue: 0.8094095643911126
+co_000:
+  data_drift_found: false
+  pvalue: 0.2366866701458996
+cp_000:
+  data_drift_found: false
+  pvalue: 0.6522839580994901
+cq_000:
+  data_drift_found: false
+  pvalue: 0.7279201775474147
+cs_000:
+  data_drift_found: false
+  pvalue: 0.9334714030074641
+cs_001:
+  data_drift_found: false
+  pvalue: 0.8607107086621788
+cs_002:
+  data_drift_found: false
+  pvalue: 0.5658086454422505
+cs_003:
+  data_drift_found: false
+  pvalue: 0.7864489515597918
+cs_004:
+  data_drift_found: false
+  pvalue: 0.8900166790826759
+cs_005:
+  data_drift_found: false
+  pvalue: 0.589601007109434
+cs_006:
+  data_drift_found: false
+  pvalue: 0.8704617172010336
+cs_007:
+  data_drift_found: false
+  pvalue: 0.5235219878830082
+cs_008:
+  data_drift_found: false
+  pvalue: 0.065506969056492
+cs_009:
+  data_drift_found: false
+  pvalue: 0.8728250881264328
+ct_000:
+  data_drift_found: false
+  pvalue: 0.17053129827640223
+cu_000:
+  data_drift_found: false
+  pvalue: 0.2584346185866635
+cv_000:
+  data_drift_found: false
+  pvalue: 0.1170679892825085
+cx_000:
+  data_drift_found: false
+  pvalue: 0.08103827992826551
+cy_000:
+  data_drift_found: false
+  pvalue: 0.5866316628479349
+cz_000:
+  data_drift_found: false
+  pvalue: 0.11292835478352059
+da_000:
+  data_drift_found: false
+  pvalue: 0.8334048337737089
+db_000:
+  data_drift_found: false
+  pvalue: 0.23565110402407818
+dc_000:
+  data_drift_found: false
+  pvalue: 0.2748310715321547
+dd_000:
+  data_drift_found: false
+  pvalue: 0.7461008661377895
+de_000:
+  data_drift_found: false
+  pvalue: 0.6603663886285346
+df_000:
+  data_drift_found: false
+  pvalue: 0.76566821140668
+dg_000:
+  data_drift_found: false
+  pvalue: 0.918374830502049
+dh_000:
+  data_drift_found: false
+  pvalue: 0.7618104625784858
+di_000:
+  data_drift_found: false
+  pvalue: 0.8294768087481882
+dj_000:
+  data_drift_found: false
+  pvalue: 0.9665711130718098
+dk_000:
+  data_drift_found: false
+  pvalue: 0.9476849940211259
+dl_000:
+  data_drift_found: false
+  pvalue: 0.9825835500804928
+dm_000:
+  data_drift_found: false
+  pvalue: 0.9712472185388044
+dn_000:
+  data_drift_found: false
+  pvalue: 0.9597438756957137
+do_000:
+  data_drift_found: false
+  pvalue: 0.17038283342802774
+dp_000:
+  data_drift_found: false
+  pvalue: 0.18780290822220302
+dq_000:
+  data_drift_found: false
+  pvalue: 0.5903885844407544
+dr_000:
+  data_drift_found: false
+  pvalue: 0.6301914175914312
+ds_000:
+  data_drift_found: false
+  pvalue: 0.6146415736400339
+dt_000:
+  data_drift_found: false
+  pvalue: 0.7913594540754461
+du_000:
+  data_drift_found: false
+  pvalue: 0.5242513251660432
+dv_000:
+  data_drift_found: false
+  pvalue: 0.25583948667224843
+dx_000:
+  data_drift_found: false
+  pvalue: 0.8162496424234622
+dy_000:
+  data_drift_found: false
+  pvalue: 0.6451574629507003
+dz_000:
+  data_drift_found: false
+  pvalue: 0.9938348584142717
+ea_000:
+  data_drift_found: false
+  pvalue: 0.9966283144970746
+eb_000:
+  data_drift_found: true
+  pvalue: 0.014747125965253625
+ec_00:
+  data_drift_found: false
+  pvalue: 0.14545374384328202
+ed_000:
+  data_drift_found: false
+  pvalue: 0.13506628820690225
+ee_000:
+  data_drift_found: false
+  pvalue: 0.650288764019259
+ee_001:
+  data_drift_found: false
+  pvalue: 0.6563379945375177
+ee_002:
+  data_drift_found: false
+  pvalue: 0.7316604164693361
+ee_003:
+  data_drift_found: false
+  pvalue: 0.5571648122164881
+ee_004:
+  data_drift_found: false
+  pvalue: 0.4883642808458717
+ee_005:
+  data_drift_found: false
+  pvalue: 0.5306130113199556
+ee_006:
+  data_drift_found: false
+  pvalue: 0.22419482430653992
+ee_007:
+  data_drift_found: false
+  pvalue: 0.17619881502288703
+ee_008:
+  data_drift_found: false
+  pvalue: 0.2167039962166638
+ee_009:
+  data_drift_found: false
+  pvalue: 0.47594566861321164
+ef_000:
+  data_drift_found: false
+  pvalue: 0.9963094588819107
+eg_000:
+  data_drift_found: false
+  pvalue: 0.9955965920131987

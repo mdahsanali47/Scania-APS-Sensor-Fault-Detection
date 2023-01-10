@@ -42,7 +42,7 @@ class SensorData:
             if "_id" in df.columns:
                 df.drop(columns="_id", inplace=True)
 
-            df.replace('na', np.nan)
+            df = df.replace('na', np.nan)
             return df
         except Exception as e:
             raise SensorException(e, sys)

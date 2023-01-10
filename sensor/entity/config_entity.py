@@ -7,6 +7,8 @@ from sensor.constant.training_pipeline import (ARTIFACT_DIR, PIPELINE_NAME, DATA
 from sensor.constant.training_pipeline import (DATA_VALIDATION_DIR_NAME, DATA_VALIDATION_VALID_DIR, DATA_VALIDATION_INVALID_DIR, DATA_VALIDATION_DRIFT_REPORT_DIR,
                                                DATA_VALIDATION_DRIFT_REPORT_FILE_NAME)
 
+from sensor.constant.training_pipeline import (DATA_TRANSFORMATION_DIR_NAME, DATA_TRANSFORMATION_TRANSFORMED_DIR,
+                                                DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR, PREPROCESSING_FILE_NAME)
 
 class TrainingPipelineConfig:
 
@@ -53,3 +55,20 @@ class DataValidationConfig:
 
         self.drift_report_file_path = os.path.join(
             self.drift_report_dir, DATA_VALIDATION_DRIFT_REPORT_FILE_NAME)
+
+class DataTransformationConfig:
+    def __init__(self, training_pipeline_config:TrainingPipelineConfig):
+        self.data_transformation_dir:str = os.path.join(
+            training_pipeline_config.artifact_dir, DATA_TRANSFORMATION_DIR_NAME)
+        
+        self.data_transformation_train_file_path:str = os.path.join(
+            self.data_transformation_dir, DATA_TRANSFORMATION_TRANSFORMED_DIR, TRAIN_FILE_NAME.replace(".csv", ".npy"))
+
+        self.data_transformation_test_file_path:str = os.path.join(self.data_transformation_dir, 
+            DATA_TRANSFORMATION_TRANSFORMED_DIR, TEST_FILE_NAME.replace('.csv', ".npy"))
+
+        self.data_transformation_transformed_object_file_path:str = os.path.join(
+            self.data_transformation_dir, DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR, PREPROCESSING_FILE_NAME
+        )
+
+

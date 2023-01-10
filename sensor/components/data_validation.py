@@ -69,7 +69,7 @@ class DataValidation:
 
     def detect_data_drift(self, base_sample, current_sample, threshold=0.05) -> bool:
         try:
-            status = False
+            status = True
             report = {}
             for col in base_sample.columns:
                 d1 = base_sample[col]
@@ -80,7 +80,7 @@ class DataValidation:
                     is_found = False
                 else:
                     is_found = True
-                    status = True
+                    status = False
                 report.update(
                     {col: {"data_drift_found": is_found, "pvalue": float(is_same_dist.pvalue)}})
 
@@ -91,6 +91,7 @@ class DataValidation:
             os.makedirs(dir_path, exist_ok=True)
             # writing report file to yaml
             write_yaml_file(yaml_file_path= drift_report_file_path, data= report)
+            return status
         except Exception as e:
             raise SensorException(e, sys)
 
