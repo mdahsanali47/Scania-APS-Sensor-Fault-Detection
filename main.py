@@ -71,6 +71,7 @@ async def predict_route(file: UploadFile = File(...)):
 
     except Exception as e:
         return Response(f"Error Occured: {e}")
+    
 
 if __name__ == '__main__':
     uvicorn.run(app, host=APP_HOST, port=APP_PORT)
