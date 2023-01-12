@@ -19,11 +19,15 @@ def read_yaml_file(yaml_file_path: str) -> dict:
         raise SensorException(e, sys)
 
 
-def write_yaml_file(yaml_file_path: str, data: dict) -> dict:
+def write_yaml_file(yaml_file_path: str, data: dict, replace: bool = False) -> dict:
     """
     write dictionary to yaml file
     """
     try:
+        if replace:
+            if os.path.exists(yaml_file_path):
+                os.remove(yaml_file_path)
+        os.makedirs(os.path.dirname(yaml_file_path), exist_ok=True)
         with open(yaml_file_path, "w") as yaml_file:
             yaml.dump(data, yaml_file)
     except Exception as e:

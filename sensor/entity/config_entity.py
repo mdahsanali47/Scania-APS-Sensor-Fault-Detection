@@ -8,7 +8,17 @@ from sensor.constant.training_pipeline import (DATA_VALIDATION_DIR_NAME, DATA_VA
                                                DATA_VALIDATION_DRIFT_REPORT_FILE_NAME)
 
 from sensor.constant.training_pipeline import (DATA_TRANSFORMATION_DIR_NAME, DATA_TRANSFORMATION_TRANSFORMED_DIR,
-                                                DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR, PREPROCESSING_FILE_NAME)
+                                               DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR, PREPROCESSING_FILE_NAME)
+
+from sensor.constant.training_pipeline import (MODEL_TRAINING_DIR_NAME, MODEL_TRAINING_TRAINED_MODEL_DIR, MODEL_TRAINING_TRAINED_MODEL_NAME,
+                                               MODEL_TRAINING_SCORE_THRESHOLD, MODEL_FILE_NAME, MODEL_TRAINING_UNDER_OVER_FITTING_THRESHOLD)
+
+from sensor.constant.training_pipeline import (
+    MODEL_EVALUATION_DIR_NAME, MODEL_EVALUATION_IMPROVED_SCORE, MODEL_EVALUATION_REPORT_FILE_NAME)
+
+from sensor.constant.training_pipeline import (
+    MODEL_PUSHER_DIR_NAME, MODEL_PUSHER_SAVED_MODEL_DIR)
+
 
 class TrainingPipelineConfig:
 
@@ -56,19 +66,61 @@ class DataValidationConfig:
         self.drift_report_file_path = os.path.join(
             self.drift_report_dir, DATA_VALIDATION_DRIFT_REPORT_FILE_NAME)
 
+
 class DataTransformationConfig:
-    def __init__(self, training_pipeline_config:TrainingPipelineConfig):
-        self.data_transformation_dir:str = os.path.join(
+    def __init__(self, training_pipeline_config: TrainingPipelineConfig):
+        self.data_transformation_dir: str = os.path.join(
             training_pipeline_config.artifact_dir, DATA_TRANSFORMATION_DIR_NAME)
-        
-        self.data_transformation_train_file_path:str = os.path.join(
+
+        self.data_transformation_train_file_path: str = os.path.join(
             self.data_transformation_dir, DATA_TRANSFORMATION_TRANSFORMED_DIR, TRAIN_FILE_NAME.replace(".csv", ".npy"))
 
-        self.data_transformation_test_file_path:str = os.path.join(self.data_transformation_dir, 
-            DATA_TRANSFORMATION_TRANSFORMED_DIR, TEST_FILE_NAME.replace('.csv', ".npy"))
+        self.data_transformation_test_file_path: str = os.path.join(self.data_transformation_dir,
+                                                                    DATA_TRANSFORMATION_TRANSFORMED_DIR, TEST_FILE_NAME.replace('.csv', ".npy"))
 
-        self.data_transformation_transformed_object_file_path:str = os.path.join(
+        self.data_transformation_transformed_object_file_path: str = os.path.join(
             self.data_transformation_dir, DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR, PREPROCESSING_FILE_NAME
         )
 
 
+class ModelTrainerConfig:
+    def __init__(self, training_pipeline_config: TrainingPipelineConfig):
+        self.training_pipeline_config = training_pipeline_config
+
+        self.model_trainer_dir: str = os.path.join(
+            training_pipeline_config.artifact_dir, MODEL_TRAINING_DIR_NAME)
+
+        self.model_training_trained_model_dir: str = os.path.join(
+            self.model_trainer_dir, MODEL_TRAINING_TRAINED_MODEL_DIR)
+
+        self.model_training_trained_model_file_path = os.path.join(
+            self.model_training_trained_model_dir, MODEL_TRAINING_TRAINED_MODEL_NAME)
+
+        self.model_file_path: str = os.path.join("config", "model.yaml")
+
+        self.model_training_threshold_score: float = MODEL_TRAINING_SCORE_THRESHOLD
+        self.model_training_under_over_fitting_threshold: float = MODEL_TRAINING_UNDER_OVER_FITTING_THRESHOLD
+
+
+class ModelEvaluationConfig:
+    def __init__(self, training_pipeline_config: TrainingPipelineConfig):
+        self.model_evaluation_dir: str = os.path.join(
+            training_pipeline_config.artifact_dir, MODEL_EVALUATION_DIR_NAME)
+
+        self.model_evaluation_report_file_path = os.path.join(self.model_evaluation_dir,
+                                                              MODEL_EVALUATION_REPORT_FILE_NAME)
+
+        self.model_evaluation_improved_score: float = MODEL_EVALUATION_IMPROVED_SCORE
+
+
+class ModelPusherConfig:
+    def __init__(self, training_pipeline_config: TrainingPipelineConfig):
+        self.model_pusher_dir: str = os.path.join(
+            training_pipeline_config.artifact_dir, MODEL_PUSHER_DIR_NAME)
+
+        self.model_pusher_model_file_path: str = os.path.join(self.model_pusher_dir, MODEL_FILE_NAME)
+
+        timestamp=round(datetime.now().timestamp())
+        self.saved_model_path: str=os.path.join(MODEL_PUSHER_SAVED_MODEL_DIR,
+        f"{timestamp}",
+        MODEL_FILE_NAME)
